@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "resumebot"
+version = "0.1.0"
+description = ""
+authors = ["bingozohar <romi.peli@pm.me>"]
+readme = "README.md"
+packages = [{include = "resumebot", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
